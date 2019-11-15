@@ -3,7 +3,7 @@ from datetime import datetime
 import os
 import time
 
-verification = input("Are you sure you want to \"kill\" you computer? (No harm will be caused) [Y/n] ")
+verification = raw_input("Are you sure you want to \"kill\" you computer? (No harm will be caused) [Y/n] ")
 print(Fore.RED)
 os.system("clear")
 if verification == "Y" or verification == "y" or verification == "Yes" or verification == "yes":
