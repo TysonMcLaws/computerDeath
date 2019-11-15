@@ -1,6 +1,7 @@
 from colorama import Fore, Back
 from datetime import datetime
 import os
+import time
 
 verification = input("Are you sure you want to \"kill\" you computer? (No harm will be caused) [Y/n] ")
 print(Fore.RED)
@@ -16,7 +17,7 @@ if verification == "Y" or verification == "y" or verification == "Yes" or verifi
 _/_/_/_/_/_/
   """)
   print("Seconds Remain")
-  sleep 1
+  time.sleep(1)
   os.system("clear")
   print("""
       _/_/_/_/_/
@@ -28,7 +29,7 @@ _/_/_/_/_/_/
  _/_/_/_/_/
   """)
   print("Seconds Remain")
-  sleep 1
+  time.sleep(1)
   os.system("clear")
   print("""
       _/_/_/_/
