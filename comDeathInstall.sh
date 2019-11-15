@@ -2,7 +2,7 @@ echo "Dear Fellow Coder,"
 echo "Hi, this will download ComputerDeath.  I wouldn't recommend downloading this unless I told you to do so."
 echo "-Thanks,"
 echo "Tyson"
-echo "Do you want to install ComputerDeath? (Y/n) "
+echo -n "Do you want to install ComputerDeath? (Y/n) "
 read downloadChoice
 if [ downloadChoice = "Y" ]; then
   echo "Installing ComputerDeath..."
@@ -26,5 +26,4 @@ if [ downloadChoice = "Y" ]; then
   echo "If you are running Python3 use \"kill\" to start the program.  If you are using Python2 use \"kill2\""
   clear
   rm -r comDeathInstall.sh
-  
 fi
