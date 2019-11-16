@@ -16,6 +16,10 @@ then
   pip install colorama
   pip install datetime
   pip install time
+  pip2 install os
+  pip2 install colorama
+  pip2 install datetime
+  pip2 install time
   
   wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/computerDeath.py
   wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/computerDeath2.py
