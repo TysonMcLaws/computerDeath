@@ -17,8 +17,8 @@ then
   pip install datetime
   pip install time
   
-  wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/compterDeath.py
-  wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/compterDeath2.py
+  wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/computerDeath.py
+  wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/computerDeath2.py
   
   alias killComputer='python3 computerDeath.py'
   alias killComputer2='python2 computerDeath2.py'
