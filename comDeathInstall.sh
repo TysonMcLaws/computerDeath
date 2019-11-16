@@ -24,11 +24,11 @@ then
   alias killComputer2='python2 computerDeath2.py'
   
   clear
-  echo "If you are running Python3 use \"kill\" to start the program.  If you are using Python2 use \"kill2\""
+  echo "If you are running Python3 use \"killComputer\" to start the program.  If you are using Python2 use \"KillComputer2\""
   sleep 4
   
   clear
-  rm -r comDeathInstall.sh
+  mv comDeathInstall.sh comDeathMain.sh
 else
   echo ":( :( Saddness, goodbye"
   clear
