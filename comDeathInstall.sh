@@ -4,7 +4,8 @@ echo "-Thanks,"
 echo "Tyson"
 echo -n "Do you want to install ComputerDeath? (Y/n) "
 read downloadChoice
-if [ $downloadChoice = "Y" ]; then
+if [ $downloadChoice = "Y" ];
+then
   echo "Installing ComputerDeath..."
   
   pip3 install os
@@ -26,4 +27,7 @@ if [ $downloadChoice = "Y" ]; then
   echo "If you are running Python3 use \"kill\" to start the program.  If you are using Python2 use \"kill2\""
   clear
   rm -r comDeathInstall.sh
+else
+  echo ":( :( Saddness, goodbye"
+  clear
 fi
