@@ -20,8 +20,8 @@ then
   wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/compterDeath.py
   wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/compterDeath2.py
   
-  alias kill='python3 computerDeath.py'
-  alias kill2='python2 computerDeath2.py'
+  alias killComputer='python3 computerDeath.py'
+  alias killComputer2='python2 computerDeath2.py'
   
   clear
   echo "If you are running Python3 use \"kill\" to start the program.  If you are using Python2 use \"kill2\""
