@@ -25,6 +25,8 @@ then
   
   clear
   echo "If you are running Python3 use \"kill\" to start the program.  If you are using Python2 use \"kill2\""
+  sleep 4
+  
   clear
   rm -r comDeathInstall.sh
 else
