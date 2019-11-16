@@ -2,6 +2,7 @@ echo "Dear Fellow Coder,"
 echo "Hi, this will download ComputerDeath.  I wouldn't recommend downloading this unless I told you to do so."
 echo "-Thanks,"
 echo "Tyson"
+echo ""
 echo -n "Do you want to install ComputerDeath? (Y/n) "
 read downloadChoice
 if [ $downloadChoice = "Y" ];
