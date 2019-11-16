@@ -25,15 +25,10 @@ then
   wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/computerDeath.py
   wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/computerDeath2.py
   
-  alias killComputer='python3 computerDeath.py'
-  alias killComputer2='python2 computerDeath2.py'
+  mv comDeathInstall.sh comDeathMain.sh
   
   clear
   echo "If you are running Python3 use \"killComputer\" to start the program.  If you are using Python2 use \"KillComputer2\""
-  sleep 4
-  
-  clear
-  mv comDeathInstall.sh comDeathMain.sh
 else
   echo ":( :( Saddness, goodbye"
   clear
