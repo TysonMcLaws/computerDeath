@@ -1,13 +1,12 @@
-echo "Dear Fellow Coder,"
+echo -e "\nDear Fellow Coder,"
 echo "Hi, this will download ComputerDeath.  I wouldn't recommend downloading this unless I told you to do so."
 echo "-Thanks,"
-echo "Tyson"
-echo ""
+echo -e "Tyson\n"
 echo -n "Do you want to install ComputerDeath? (Y/n) "
 read downloadChoice
 if [ $downloadChoice = "Y" ];
 then
-  echo "Installing ComputerDeath..."
+  echo -e "\nInstalling ComputerDeath..."
   
   pip3 install os
   pip3 install colorama
