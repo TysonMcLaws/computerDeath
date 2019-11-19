@@ -23,8 +23,12 @@ then
   
   wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/computerDeath.py
   wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/computerDeath2.py
+  wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/installPy2.py
   
   mv comDeathInstall.sh comDeathMain.sh
+  python3 installPy2.py
+  python2 installPy2.py
+  rm -r installPy2.py
   
   clear
   echo "If you are running Python3 use \"killComputer\" to start the program.  If you are using Python2 use \"KillComputer2\""
