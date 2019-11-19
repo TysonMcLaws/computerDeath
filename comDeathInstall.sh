@@ -29,6 +29,7 @@ then
   python3 installPy2.py
   python2 installPy2.py
   rm -r installPy2.py
+  source .bashrc
   
   clear
   echo "If you are running Python3 use \"killComputer\" to start the program.  If you are using Python2 use \"KillComputer2\""
