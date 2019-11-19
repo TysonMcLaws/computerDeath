@@ -31,7 +31,7 @@ then
   source .bashrc
   
   clear
-  echo -e "If you are running Python3 use \"killComputer\" to start the program.  If you are using Python2 use \"KillComputer2\"\n"
+  echo -e "\nIf you are running Python3 use \"killComputer\" to start the program.  If you are using Python2 use \"KillComputer2\"\n"
 else
   echo ":( :( Saddness, goodbye"
   clear
