@@ -18,10 +18,10 @@ then
   
   python3 installPy.py
   rm -r installPy.py
-  source .bashrc
   
   clear
   echo -e "\nIf you are running Python3 use \"killComputer\" to start the program.\n"
+  source .bashrc
 else
   echo ":( :( Saddness, goodbye"
   clear
