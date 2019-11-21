@@ -22,7 +22,6 @@ then
   clear
   echo -e "\nIf you are running Python3 use \"killComputer\" to start the program.\n"
   source .bashrc
-  shutdown
 else
   echo ":( :( Saddness, goodbye"
   clear
