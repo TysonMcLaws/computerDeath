@@ -14,8 +14,7 @@ then
   pip3 install time
   
   wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/computerDeath.py
-  wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/computerDeath2.py
-  wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/installPy2.py
+  wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/installPy.py
   
   python3 installPy2.py
   rm -r installPy2.py
