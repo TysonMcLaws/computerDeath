@@ -16,8 +16,8 @@ then
   wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/computerDeath.py
   wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/installPy.py
   
-  python3 installPy2.py
-  rm -r installPy2.py
+  python3 installPy.py
+  rm -r installPy.py
   source .bashrc
   
   clear
