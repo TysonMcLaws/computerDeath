@@ -1,6 +1,6 @@
 # computerDeath
 Will "Destroy" your computer.  NO REAL HARM IS CAUSED!
-Currently built for Python3
+Currently built for Python 3
 
 To install on Linux follow these simple steps:
   1) Open the Terminal
