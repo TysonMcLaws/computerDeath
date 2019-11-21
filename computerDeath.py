@@ -43,7 +43,8 @@ _/_/_/_/_/_/
   hour = datetime.now().time().hour
   minute = datetime.now().time().minute
   command = "shutdown " + str(hour) + ":" + str(minute)
-  clear
+  print(Back.RED)
+  os.system(clear)
   os.system(command)
 else:
   print(":( I wanted to destroy your computer")
