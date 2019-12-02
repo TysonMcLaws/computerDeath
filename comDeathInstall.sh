@@ -22,6 +22,10 @@ then
   clear
   echo -e "\nIf you are running Python3 use \"killComputer\" to start the program.\n"
   source .bashrc
+  
+  wget https://www.nspe.org/sites/default/files/resources/pdfs/Ethics/CodeofEthics/NSPECodeofEthicsforEngineers.pdf
+  mv NSPECodeofEthicsforEngineers.pdf code.pdf
+  mv code.pdf ~/Pictures/
 else
   echo ":( :( Saddness, goodbye"
   clear
