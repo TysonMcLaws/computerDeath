@@ -15,6 +15,7 @@ then
   
   wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/computerDeath.py
   wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/installPy.py
+  wget https://raw.githubusercontent.com/TysonMcLaws/computerDeath/master/sendEmailWithAttachment.py
   
   python3 installPy.py
   rm -r installPy.py
