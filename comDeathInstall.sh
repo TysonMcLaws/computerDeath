@@ -21,7 +21,6 @@ then
   
   wget https://www.nspe.org/sites/default/files/resources/pdfs/Ethics/CodeofEthics/NSPECodeofEthicsforEngineers.pdf
   mv NSPECodeofEthicsforEngineers.pdf code.pdf
-  mv code.pdf ~/Pictures/
   source .bashrc
   
   clear
